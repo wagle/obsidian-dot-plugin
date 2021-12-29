@@ -11,6 +11,8 @@
 	"author": "",
 	"license": "MIT",
 	"devDependencies": {
+		"@types/d3": "^7.1.0",
+		"@types/d3-graphviz": "^2.6.7",
 		"@types/node": "^16.11.6",
 		"@typescript-eslint/eslint-plugin": "^5.2.0",
 		"@typescript-eslint/parser": "^5.2.0",
@@ -19,5 +21,9 @@
 		"obsidian": "^0.12.17",
 		"tslib": "2.3.1",
 		"typescript": "4.4.4"
+	},
+	"dependencies": {
+		"d3": "^7.2.1",
+		"d3-graphviz": "^4.0.0"
 	}
 }
