@@ -11,7 +11,8 @@
 	"author": "",
 	"license": "MIT",
 	"devDependencies": {
-		"@types/d3": "^7.1.0",
+		"@hpcc-js/wasm": "^0.3.11",
+		"@types/d3": "^5.16.0",
 		"@types/d3-graphviz": "^2.6.7",
 		"@types/node": "^16.11.6",
 		"@typescript-eslint/eslint-plugin": "^5.2.0",
@@ -19,11 +20,12 @@
 		"builtin-modules": "^3.2.0",
 		"esbuild": "0.13.12",
 		"obsidian": "^0.12.17",
+		"rollup-plugin-base64": "^1.0.1",
 		"tslib": "2.3.1",
 		"typescript": "4.4.4"
 	},
 	"dependencies": {
-		"d3": "^7.2.1",
-		"d3-graphviz": "^4.0.0"
+		"d3": "^5.16.0",
+		"d3-graphviz": "^3.1.0"
 	}
 }
